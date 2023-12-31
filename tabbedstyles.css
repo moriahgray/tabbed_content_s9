@@ -1,0 +1,71 @@
+body, h1, h2, ul, p {
+    margin: 0;
+    padding: 0;
+}
+
+body, h1, h2, button, p {
+    font-family: Arial, sans-serif;
+}
+
+header {
+    background-color: #00DDFF;
+    color: black;
+    padding: 20px 0;
+    text-align: center;
+}
+
+.tabs ul {
+    list-style-type: none;
+    overflow: hidden;
+    background-color: #00DDFF;
+    padding-left: 0;
+    margin: 0;
+    text-align: center;
+}
+
+.tabs li {
+    display: inline-block;
+    margin-right: 5px;
+}
+
+.tabs button {
+    background-color: #f75990;
+    border: 1px solid #f75990;
+    outline: none;
+    cursor: pointer;
+    padding: 14px 16px;
+    transition: 0.3s;
+    font-size: 16px;
+    color: white;
+    border-radius: 5px;
+    margin-bottom: 5px; 
+}
+
+.tabs button:hover, .tabs button.active {
+    background-color: #ff1d58; 
+    border: 1px solid #ff1d58;
+    color: white;
+}
+
+.tabcontent {
+    padding: 20px;
+    border: 1px solid gainsboro; 
+    background-color: gainsboro;
+    color: black;
+    border-radius: 5px;
+    margin-top: 5px;
+}
+
+.tabcontent h2 {
+    color: black;
+}
+
+body {
+    width: 80%;
+    margin: auto;
+    background-color: #00DDFF;
+}
+
+.tabcontent {
+    margin-bottom: 20px;
+}
